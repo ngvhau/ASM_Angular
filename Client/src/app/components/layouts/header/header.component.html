@@ -1,0 +1,29 @@
+<div class="main__content--header">
+  <div class="box-header">
+    <div class="content__list">
+      <div class="logo__fpoly">
+        <a href="" routerLink="">
+          <img src={{logo}} alt="logo">
+        </a>
+      </div>
+      <ul class="list__item">
+        <li *ngFor="let itemName of listPagename">
+          <a href="" routerLink={{itemName.path}}>{{itemName.name}}</a>
+        </li>
+      </ul>
+    </div>
+    <app-search />
+
+    <div *ngIf="isLogin" class="userLogin">
+      <span class="fullname">{{userInfo?.fullname}}</span>
+      <span class="logoutUser" (click)="logout()">Đăng xuất</span>
+      <div *ngIf="isAdmin" class="roles__user">
+        <a href="" routerLink="admin" class="admin-link">Admin</a>
+      </div>
+    </div>
+    <div *ngIf="!isLogin" class="btn-groups">
+      <register-button></register-button>
+      <login-button></login-button>
+    </div>
+  </div>
+</div>

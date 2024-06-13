@@ -1,0 +1,13 @@
+.main__button--login > .button__login {
+  padding: 5px 20px 5px 20px;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+  transition: 0.5s;
+  border: 1px solid grey;
+  color: black;
+  border-radius: 0px;
+}
+
+.button__login:hover {
+  background-color: red;
+}

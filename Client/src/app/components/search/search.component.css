@@ -1,0 +1,28 @@
+.search__header {
+  display: flex;
+  gap: 2px;
+}
+
+.search__header>button {
+  border: none;
+  padding: 5px 20px 5px 20px;
+  background-color: rgba(248, 248, 248, 0);
+  /* color: #fff; */
+  font-weight: bold;
+  border-radius: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.search__header>input {
+  padding: 5px 20px 5px 20px;
+  outline: none;
+  border-radius: 0px;
+  border: none;
+  width: 400px;
+
+}
+
+.search__header>input:focus {
+  /* border: 2px solid red; */
+}

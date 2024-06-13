@@ -1,0 +1,102 @@
+.main__project--team {
+  padding: 20px;
+}
+
+th{
+  text-transform: uppercase;
+}
+
+td{
+  line-height: 40px;
+}
+
+
+input{
+  border-radius: 0px;
+}
+
+.modal__add--project {
+  position: fixed;
+  top: 30%;
+  left: 25%;
+  width: 50%;
+  border: 1px solid grey;
+  z-index: 10;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 0px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: center;
+}
+
+/* ... previous CSS ... */
+.list__user--project {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.row > * {
+  padding: 0px !important;
+  width: 90%;
+  margin: auto;
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin-block: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 0px;
+  border: 1px solid rgb(221, 221, 221);
+  flex-grow: 1;
+  margin-inline: 2px;
+  cursor: pointer;
+  color: #000000;
+}
+
+.user.selected {
+  background-color: #0075ff;
+  color: #fff;
+
+}
+
+.options__user {
+  width: 50px;
+}
+
+.text-success {
+  color: rgb(78, 255, 78);
+  font-weight: bold;
+}
+
+.text-danger {
+  color: red;
+  font-weight: bold;
+
+}
+
+
+.btn-custom-red {
+  background-color: red;
+  border-color: red;
+  color: white;
+}
+
+.btn-custom-red:hover {
+  background-color: rgb(255, 0, 0);
+  border-color: rgb(255, 0, 0);
+}
+
+
+.btn{
+  border: 1px solid grey;
+  background-color: white;
+  color: black;
+  border-radius: 0px;
+}

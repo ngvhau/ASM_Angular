@@ -1,0 +1,27 @@
+.container-fluid{
+    width: 90%;
+    margin: auto;
+    padding: 0px;
+}
+
+th{
+    text-transform: uppercase;
+}
+
+td{
+
+    line-height: 40px;
+}
+
+button{
+    border-radius: 0px;
+    background-color: white;
+    color: black;
+    border: 1px solid grey;
+}
+
+button:hover{
+    background-color: red;
+    color: white;
+    border: 1px solid rgba(245, 222, 179, 0);
+}

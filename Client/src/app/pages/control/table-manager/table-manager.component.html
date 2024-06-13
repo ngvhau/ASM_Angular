@@ -1,0 +1,34 @@
+<div class="table__information--control">
+    <div class="position">
+      <h4>Trưởng nhóm</h4>
+    </div>
+    <div class="avatar__leader">
+      <div class="avatar">
+        <img src="../../../assets/123.jpg" alt="">
+      </div>
+      <span>Thái Huy</span>
+    </div>
+    <div class="information__team">
+      <span>Tóm tắt về team</span>
+      <div class="quantity__member">
+        <span>Số lượng thành viên</span>
+        <span>{{quantityMember}}</span>
+      </div>
+      <div class="total__price--project">
+        <span>Tổng chi phí của tất cả dự án</span>
+        <span>{{allPriceTotalProject}}VND</span>
+      </div>
+      <div class="task__processing">
+        <span>Các task đang xử lí</span>
+        <span>{{allTaskProject}}</span>
+      </div>
+
+    </div>
+    <div class="customer__control">
+      <span>Khách hàng</span>
+      <div class="customer__project" *ngFor="let name of nameProject">
+        <span>{{name}}</span>
+      </div>
+    </div>
+   </div>
+

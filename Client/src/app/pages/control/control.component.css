@@ -1,0 +1,24 @@
+.main__control--table {}
+
+.box-control-table {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  padding: 0px;
+  gap: 20px;
+  height: 800px;
+  background-color: #ebeaea;
+
+}
+
+.table__manager {
+  width: 20%;
+}
+
+.table__data {
+  width: 50%;
+}
+
+.table__member--control {
+  width: 30%;
+}

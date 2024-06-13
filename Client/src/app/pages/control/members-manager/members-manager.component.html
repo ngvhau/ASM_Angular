@@ -1,0 +1,25 @@
+<div class="title__information--project">
+  <h4>Thành viên của team</h4>
+</div>
+<div class="all__project">
+  <div class="name__project">
+
+    <div class="project" *ngFor="let project of projects">
+      <span>{{project.nameProject}}</span>
+      <div class="member__working--project" *ngFor="let member of project.teamProject">
+        <div class="member__working">
+          <div class="name__member">
+            <span>{{member.fullname}}</span>
+          </div>
+          <div class="status__member" >
+            <span [ngClass]="{'working': member.statusWorking, 'not-working': !member.statusWorking}">{{ member.statusWorking ? "Đang làm việc" : "Không làm việc"}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+</div>
+

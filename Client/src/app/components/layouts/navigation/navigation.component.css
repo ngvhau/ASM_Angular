@@ -1,0 +1,14 @@
+.main--navigation {
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-nav{
+  width: 90%;
+}
+
+h5 {
+ color: #333;
+}
